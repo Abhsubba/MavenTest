@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -16,9 +17,9 @@ WebDriver driver;
 
 @Given("Open firefox or chrome and lauch App")
 public void open_firefox_or_chrome_and_lauch_App() {
-System.setProperty("webdriver.chrome.driver", "C:\\Users\\Abhirup Subba\\Downloads\\alllink\\chromedriver.exe");
+	System.setProperty("webdriver.ie.driver", "C:\\Users\\Abhirup Subba\\Downloads\\alllink\\IEDriverServer.exe");
 	
-driver = new ChromeDriver();	
+	driver = new InternetExplorerDriver();	
 	driver.manage().window().maximize();
 //driver.manage().window().fullscreen();
 driver.manage().deleteAllCookies();
