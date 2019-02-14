@@ -27,11 +27,5 @@
 	<classpathentry kind="lib" path="C:/Users/Abhirup Subba/Downloads/OLDJar/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Abhirup Subba/Downloads/OLDJar/cucumber-java-1.1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Abhirup Subba/Downloads/OLDJar/cucumber-junit-1.1.2.jar"/>
-	<classpathentry kind="src" output="target/classes" path="src/main/java">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
