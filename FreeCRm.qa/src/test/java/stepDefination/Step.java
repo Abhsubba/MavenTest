@@ -17,6 +17,7 @@ WebDriver driver;
 
 @Given("Open firefox or chrome and lauch App")
 public void open_firefox_or_chrome_and_lauch_App() {
+	
 	System.setProperty("webdriver.ie.driver", "C:\\Users\\Abhirup Subba\\Downloads\\alllink\\IEDriverServer.exe");
 	
 	driver = new InternetExplorerDriver();	
