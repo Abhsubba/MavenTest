@@ -13,7 +13,7 @@ import cucumber.api.java.en.When;
 
 public class Step { haka
 
-WebDriver driver;
+
 
 @Given("Open firefox or chrome and lauch App")
 public void open_firefox_or_chrome_and_lauch_App() {
