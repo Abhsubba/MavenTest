@@ -18,9 +18,9 @@ WebDriver driver;
 @Given("Open firefox or chrome and lauch App")
 public void open_firefox_or_chrome_and_lauch_App() {
 	
-	System.setProperty("webdriver.ie.driver", "C:\\Users\\Abhirup Subba\\Downloads\\alllink\\IEDriverServer.exe");
-	
-	driver = new InternetExplorerDriver();	
+	System.setProperty("driver.chrome.driver","C:\Users\abhir\Downloads\chromedriver_win32\chromedriver.exe");	
+		
+	WebDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();
 //driver.manage().window().fullscreen();
 driver.manage().deleteAllCookies();
